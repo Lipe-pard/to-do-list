@@ -1,0 +1,62 @@
+.table{
+    width: 35%;
+    height: 50%;
+    background-color: #f0f0f0;
+    margin: 8.5% 50px 10px 0;
+}
+
+.tableHeader{
+    text-align: center;
+    background-color: #212529;
+    color: #FFF;
+}
+
+.thItem{
+    height: 50px;
+}
+
+.tbItem{
+    padding: 10px;
+    text-align: center;
+}
+
+.edit{
+    background-color: rgb(84, 37, 255);
+    color: #FFF;
+    border-radius: 7px;
+    padding: 7px 10px;
+    border: none;
+    font-size: 1.5rem;
+    margin: 5px;
+    transition: 0.4s ease-in-out;
+}
+
+.edit:hover{
+    background-color: rgb(66, 28, 201);
+}
+
+.delete{
+    background-color: rgb(255, 37, 37);
+    color: #FFF;
+    border: none;
+    border-radius: 7px;
+    padding: 7px 10px;
+    font-size: 1.5rem;
+    transition: 0.4s ease-in-out;
+}
+
+.delete:hover{
+    background-color: rgb(197, 28, 28);
+}
+
+.dfRow{
+    background-color: #e4e4e4;
+}
+
+@media (max-width: 768px){
+    .table{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
